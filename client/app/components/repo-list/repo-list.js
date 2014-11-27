@@ -5,9 +5,6 @@ angular.module('repo-list', [])
       scope: {
         list: '='
       },
-      controller: function () {
-        console.log('hi');
-      },
       restrict: 'E'
     };
   });
