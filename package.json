@@ -9,15 +9,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai": "^1.10.0",
+
     "express": "^4.10.4",
-    "gulp": "^3.8.10",
-    "rangle-gulp": "0.0.7",
-    "serve-static": "^1.7.1",
-    "sinon": "^1.12.1",
-    "sinon-chai": "^2.6.0"
+    "serve-static": "^1.7.1"
+
   },
   "devDependencies": {
-    "sinon-chai": "^2.6.0"
+    "sinon": "^1.12.1",
+    "sinon-chai": "^2.6.0",
+    "gulp": "^3.8.10",
+    "rangle-gulp": "0.0.7",
+    "gulp": "^3.8.10",
+    "rangle-gulp": "0.0.7"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
