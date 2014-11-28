@@ -1,3 +1,4 @@
+'use strict';
 angular.module('git-service', ['git-api'])
   .factory('gitService', function (gitApi) {
     var service = {};
@@ -10,15 +11,3 @@ angular.module('git-service', ['git-api'])
 
     return service;
   });
-
-function isReady() {
-
-}
-
-function notReady() {
-
-}
-
-function () {
-
-}
