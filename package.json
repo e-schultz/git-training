@@ -1,13 +1,10 @@
 {
   "name": "git-training",
   "version": "1.0.0",
-  "description": "",
+  "description": "git training app",
   "main": "server/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Evan Schultz",
+  "license": "MIT",
   "dependencies": {
 
     "express": "^4.10.4",
@@ -26,7 +23,8 @@
     "node": "0.10.x"
   },
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "test": "node node_modules/gulp/bin/gulp karma-ci"
 
   }
 }
