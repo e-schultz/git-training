@@ -12,6 +12,13 @@ var karmaVendorFiles = [
   'client/bower_components/sinon-chai/lib/sinon-chai.js'
 ];
 
+gulp.task('karma-ci', rg.karma({
+  // files: specify which folders (optional)
+  // karmaConf: specify which karma config file (optional)
+  karmaConf: 'client/testing/karma-ci.conf.js',
+  vendor: karmaVendorFiles
+}));
+
 gulp.task('karma', rg.karma({
   // files: specify which folders (optional)
   // karmaConf: specify which karma config file (optional)
